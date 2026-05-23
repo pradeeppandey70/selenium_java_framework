@@ -1,0 +1,16 @@
+drivers\FirefoxBrowser.class
+options\FirefoxOptionsManager.class
+options\BrowserOptions.class
+base\BaseClass.class
+options\EdgeOptionsManager.class
+drivers\BrowserFactory.class
+drivers\EdgeBrowser.class
+options\ChromeOptionsManager.class
+pageobjects\BasePage.class
+pageobjects\HomePage.class
+base\DriverFactory.class
+drivers\ChromeBrowser.class
+utils\LoggerUtils.class
+utils\ScreenshotUtils.class
+utils\ExtentManager.class
+base\ConfigReader.class
