@@ -2,13 +2,16 @@ drivers\FirefoxBrowser.class
 options\FirefoxOptionsManager.class
 options\BrowserOptions.class
 base\BaseClass.class
+utils\JavaScriptUtils.class
 options\EdgeOptionsManager.class
 drivers\BrowserFactory.class
 drivers\EdgeBrowser.class
 options\ChromeOptionsManager.class
 pageobjects\BasePage.class
+utils\WaitUtils.class
 pageobjects\HomePage.class
 base\DriverFactory.class
+utils\ActionUtils.class
 drivers\ChromeBrowser.class
 utils\LoggerUtils.class
 utils\ScreenshotUtils.class

@@ -11,6 +11,9 @@ C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\options\EdgeOpt
 C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\options\FirefoxOptionsManager.java
 C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\pageobjects\BasePage.java
 C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\pageobjects\HomePage.java
+C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\utils\ActionUtils.java
 C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\utils\ExtentManager.java
+C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\utils\JavaScriptUtils.java
 C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\utils\LoggerUtils.java
 C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\utils\ScreenshotUtils.java
+C:\Users\Thoughtwin\eclipse-workspace\demo-setup-1\src\main\java\utils\WaitUtils.java

@@ -1,3 +1,4 @@
+listeners\SuiteListeners.class
 tests\TestSearch.class
 listeners\RetryAnalyzer.class
 listeners\RetryListener.class
