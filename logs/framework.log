@@ -30,3 +30,7 @@
 2026-05-09 14:57:50 INFO  pageobjects.BasePage - Clicking element: [[ChromeDriver: chrome on windows (5d6be6673b83899a6b55ece9ec40db2e)] -> name: btnK]
 2026-05-24 05:00:41 INFO  base.DriverFactory - Initializing driver
 2026-05-24 05:03:15 INFO  base.DriverFactory - Initializing driver
+2026-05-24 05:07:46 INFO  base.DriverFactory - Initializing driver
+2026-05-24 05:08:00 INFO  pageobjects.BasePage - clearing element: [[ChromeDriver: chrome on windows (63aaa71d62c54e005fa3bd825e8ad862)] -> id: APjFqb]
+2026-05-24 05:08:00 INFO  pageobjects.BasePage - writing text: [[ChromeDriver: chrome on windows (63aaa71d62c54e005fa3bd825e8ad862)] -> id: APjFqb]
+2026-05-24 05:08:00 INFO  pageobjects.BasePage - Clicking element: [[ChromeDriver: chrome on windows (63aaa71d62c54e005fa3bd825e8ad862)] -> name: btnK]
