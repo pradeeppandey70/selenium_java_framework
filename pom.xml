@@ -113,7 +113,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<!-- Path to your TestNG suite file -->
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
