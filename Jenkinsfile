@@ -32,8 +32,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-				branch: 'main',
-                git: 'https://github.com/pradeeppandey70/selenium_java_framework'
+				git branch: 'main',
+                url: 'https://github.com/pradeeppandey70/selenium_java_framework'
             }
         }
 
