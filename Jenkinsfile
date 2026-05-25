@@ -32,7 +32,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'YOUR_GITHUB_REPO_URL'
+                git 'https://github.com/pradeeppandey70/selenium_java_framework'
             }
         }
 
