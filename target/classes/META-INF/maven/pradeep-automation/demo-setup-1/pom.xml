@@ -85,6 +85,11 @@
 			<version>6.3.4</version>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.29.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -115,6 +120,11 @@
 							<!-- Path to your TestNG suite file -->
 							<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 						</suiteXmlFiles>
+						<systemPropertyVariables>
+							<allure.results.directory>
+								target/allure-results
+							</allure.results.directory>
+						</systemPropertyVariables>
 					</configuration>
 				</plugin>
 				<plugin>
