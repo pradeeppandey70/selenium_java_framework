@@ -57,5 +57,45 @@ pipeline {
             	results: [[path: 'target/allure-results']]
         	])
     	}
+    	
+
+    success {
+        emailext(
+            subject: "SUCCESS: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+            body: """
+                Build SUCCESSFUL
+                
+                Job Name: ${env.JOB_NAME}
+                Build Number: ${env.BUILD_NUMBER}
+                
+                Check console output:
+                ${env.BUILD_URL}
+                
+                Allure Report:
+                ${env.BUILD_URL}allure
+            """,
+            to: 'pradeepp@thoughtwin.com'
+        )
+    }
+
+    failure {
+        emailext(
+            subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+            body: """
+                Build FAILED
+                
+                Job Name: ${env.JOB_NAME}
+                Build Number: ${env.BUILD_NUMBER}
+                
+                Check console output:
+                ${env.BUILD_URL}
+                
+                Allure Report:
+                ${env.BUILD_URL}allure
+            """,
+            to: 'pradeepp@thoughtwin.com'
+        )
+    }
+}
     }
 }
