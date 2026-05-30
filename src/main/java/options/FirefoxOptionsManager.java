@@ -11,25 +11,26 @@ public class FirefoxOptionsManager implements BrowserOptions<FirefoxOptions> {
 		FirefoxOptions options = new FirefoxOptions();
 
 		if (isEnabled("headless")) {
-			options.addArguments("--headless=new");
+			options.addArguments("-headless");
 		}
 
 		if (isEnabled("incognito")) {
-			options.addArguments("--incognito");
+			options.addArguments("-private");
 		}
 
-		if (isEnabled("maximize")) {
-			options.addArguments("--start-maximized");
-		}
+		/*
+		 * if (isEnabled("maximize")) { options.addArguments("--start-maximized"); }
+		 */
 
-		if (isEnabled("disableNotifications")) {
-			options.addArguments("--disable-notifications");
-		}
+		/*
+		 * if (isEnabled("disableNotifications")) {
+		 * options.addArguments("--disable-notifications"); }
+		 */
 
-		if (isEnabled("remoteAllowOrigins")) {
-			options.addArguments("--remote-allow-origins=*");
-		}
-
+		/*
+		 * if (isEnabled("remoteAllowOrigins")) {
+		 * options.addArguments("--remote-allow-origins=*"); }
+		 */
 		return options;
 	}
 
