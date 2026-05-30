@@ -1,6 +1,8 @@
 pipeline {
 
-    agent any
+    agent {
+		label 'selenium'
+}
 
     tools {
         maven 'MAVEN3'
