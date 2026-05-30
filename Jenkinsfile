@@ -39,18 +39,44 @@ pipeline {
             }
         }
 
-        stage('Build & Test') {
-            steps {
+       stage('Parallel Browser Execution') {
 
-                bat """
-                mvn clean test ^
-                -Dbrowser=%BROWSER% ^
-                -DsuiteXmlFile=%SUITE% ^
-                -DexecutionMode=%EXECUTION_MODE%
-                """
-            }
+       	parallel {
+
+        	stage('Chrome') {
+            	steps {
+	                bat """
+	                mvn clean test ^
+	                -Dbrowser=chrome ^
+	                -DsuiteXmlFile=%SUITE% ^
+	                -DexecutionMode=%EXECUTION_MODE%
+	                """
+	            }
         }
-    }
+
+	        stage('Firefox') {
+	            steps {
+	                bat """
+	                mvn clean test ^
+	                -Dbrowser=firefox ^
+	                -DsuiteXmlFile=%SUITE% ^
+	                -DexecutionMode=%EXECUTION_MODE%
+	                """
+	            }
+	        }
+	
+	        stage('Edge') {
+	            steps {
+	                bat """
+	                mvn clean test ^
+	                -Dbrowser=edge ^
+	                -DsuiteXmlFile=%SUITE% ^
+	                -DexecutionMode=%EXECUTION_MODE%
+	                """
+	            }
+	        }
+    	}
+	}
     post {
     	always {
         	allure([
@@ -96,8 +122,8 @@ pipeline {
                 ${env.BUILD_URL}allure
             """,
             to: 'pradeepp@thoughtwin.com'
-        )
-    }
- }
+        	)
+    	}
+ 	}
     
 }
