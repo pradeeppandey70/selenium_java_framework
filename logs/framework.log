@@ -42,3 +42,30 @@
 2026-05-26 10:20:35 INFO  pageobjects.BasePage - clearing element: [[ChromeDriver: chrome on windows (07cd5d8b5666ca697b03f025de2e33fc)] -> id: APjFqb]
 2026-05-26 10:20:35 INFO  pageobjects.BasePage - writing text: [[ChromeDriver: chrome on windows (07cd5d8b5666ca697b03f025de2e33fc)] -> id: APjFqb]
 2026-05-26 10:20:36 INFO  pageobjects.BasePage - Clicking element: [[ChromeDriver: chrome on windows (07cd5d8b5666ca697b03f025de2e33fc)] -> name: btnK]
+2026-05-30 22:43:18 INFO  base.DriverFactory - Initializing driver
+2026-05-30 22:43:25 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (9ca977b2-19d9-40e1-a880-e0a6f2bc812c)] -> id: APjFqb]
+2026-05-30 22:43:25 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (9ca977b2-19d9-40e1-a880-e0a6f2bc812c)] -> id: APjFqb]
+2026-05-30 22:43:25 INFO  pageobjects.BasePage - Clicking element: [[FirefoxDriver: firefox on windows (9ca977b2-19d9-40e1-a880-e0a6f2bc812c)] -> name: btnK]
+2026-05-30 22:44:16 INFO  base.DriverFactory - Initializing driver
+2026-05-30 22:44:22 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (43728888-2997-452c-9ba1-fa9c2c0609a2)] -> id: APjFqb]
+2026-05-30 22:44:22 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (43728888-2997-452c-9ba1-fa9c2c0609a2)] -> id: APjFqb]
+2026-05-30 22:44:22 INFO  pageobjects.BasePage - Clicking element: [[FirefoxDriver: firefox on windows (43728888-2997-452c-9ba1-fa9c2c0609a2)] -> name: btnK]
+2026-05-30 22:45:47 INFO  base.DriverFactory - Initializing driver
+2026-05-30 22:45:53 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (7ec51b72-3f4b-4714-9547-d092b170c6f5)] -> id: APjFqb]
+2026-05-30 22:45:53 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (7ec51b72-3f4b-4714-9547-d092b170c6f5)] -> id: APjFqb]
+2026-05-30 22:45:53 INFO  pageobjects.BasePage - Clicking element: [[FirefoxDriver: firefox on windows (7ec51b72-3f4b-4714-9547-d092b170c6f5)] -> name: btnK]
+2026-05-30 22:52:19 INFO  base.DriverFactory - Initializing driver
+2026-05-30 22:52:27 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (6643258d-ff72-4761-9f11-835739300ea1)] -> id: APjFqb]
+2026-05-30 22:52:27 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (6643258d-ff72-4761-9f11-835739300ea1)] -> id: APjFqb]
+2026-05-30 22:52:27 INFO  pageobjects.BasePage - Clicking element: [[FirefoxDriver: firefox on windows (6643258d-ff72-4761-9f11-835739300ea1)] -> name: btnK]
+2026-05-30 22:53:04 INFO  base.DriverFactory - Initializing driver
+2026-05-30 22:53:12 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (b1b67d81-6450-494e-82ca-8a86357703d5)] -> id: APjFqb]
+2026-05-30 22:53:12 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (b1b67d81-6450-494e-82ca-8a86357703d5)] -> id: APjFqb]
+2026-05-30 22:53:12 INFO  pageobjects.BasePage - Clicking element: [[FirefoxDriver: firefox on windows (b1b67d81-6450-494e-82ca-8a86357703d5)] -> name: btnK]
+2026-05-30 22:53:56 INFO  base.DriverFactory - Initializing driver
+2026-05-30 22:54:04 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (b5482db2-3991-4cc1-a580-fdb025704518)] -> id: APjFqb]
+2026-05-30 22:54:04 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (b5482db2-3991-4cc1-a580-fdb025704518)] -> id: APjFqb]
+2026-05-30 22:54:04 INFO  pageobjects.BasePage - Clicking element: [[FirefoxDriver: firefox on windows (b5482db2-3991-4cc1-a580-fdb025704518)] -> name: btnK]
+2026-05-30 23:02:08 INFO  base.DriverFactory - Initializing driver
+2026-05-30 23:02:19 INFO  pageobjects.BasePage - clearing element: [[FirefoxDriver: firefox on windows (e526eb6d-a137-4caf-9211-7119e18dc6fb)] -> id: APjFqb]
+2026-05-30 23:02:19 INFO  pageobjects.BasePage - writing text: [[FirefoxDriver: firefox on windows (e526eb6d-a137-4caf-9211-7119e18dc6fb)] -> id: APjFqb]

@@ -86,7 +86,7 @@ public class DriverFactory {
 
 			}
 			driver.set(webDriver);
-			getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 			getDriver().manage().deleteAllCookies();
 
 		} catch (Exception e) {
